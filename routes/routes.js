@@ -153,7 +153,7 @@ router.get("/delete/:id", (req, res) => {
         else {
             req.session.message = {
                 type: 'info',
-                message: "Usuário excluído com sucesso!"
+                message: "User Deleted Successfully!"
             };
             res.redirect("/");
         }
